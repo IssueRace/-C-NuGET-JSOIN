@@ -61,8 +61,8 @@ namespace ConsoleApp4
 
             var newUsers = new List<UserWrapper>
             {
-                new UserWrapper { Name = "Eve", Age = 29, City = "Paris", Type = "User" },
-                new UserWrapper { Name = "Charlie", Age = 31, City = "Madrid", Type = "Admin" }
+                new UserWrapper { Name = "Ivan", Age = 20, City = "Paris", Type = "User" },
+                new UserWrapper { Name = "Anna", Age = 30, City = "Madrid", Type = "Admin" }
             };
 
             string newJson = JsonConvert.SerializeObject(newUsers, Formatting.Indented);
